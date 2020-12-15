@@ -15,9 +15,10 @@ TODO: Add long description of the pod here.
   s.dependency 'Masonry'
   s.dependency 'SuperPlayer'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
-  s.resource_bundles = {
-     'JOPlayer' => ['JOPlayer/Assets/Resource/TDiLiveResoureces.bundle/*']
-   }
+  s.resource = 'JOPlayer/Assets/Resource/TDiLiveResoureces.bundle'
+  #s.resource_bundles = {
+     #'JOPlayer' => ['JOPlayer/Assets/Resource/TDiLiveResoureces.bundle/*']
+   #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
